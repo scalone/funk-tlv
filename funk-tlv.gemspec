@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["thiago@cloudwalk.io"]
   spec.summary       = "Hash Ber TLV implementation"
   spec.description   = "Implements Hash Ber TLV on funk environment"
-  spec.homepage      = "http://cloudwalk.io"
+  spec.homepage      = "https://github.com/scalone/funk-tlv"
   spec.license       = "MIT"
   spec.files         = %w(.gitignore Gemfile Gemfile.lock README.md Rakefile funk-tlv.gemspec lib/version.rb out/funk-tlv/main.mrb)
   spec.extensions    = []
