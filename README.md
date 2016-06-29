@@ -1,4 +1,4 @@
-# Funk TLV
+# Funky TLV
 
 Extend Hash class with ability to parse and convert BER TLV format. Forked from [hash-ber-tlv gem](https://rubygems.org/gems/hash-ber-tlv).
 

@@ -5,7 +5,7 @@ require 'funky-tlv.rb'
 
 Gem::Specification.new do |spec|
   spec.name          = "funky-tlv"
-  spec.version       = FunkTlv::VERSION
+  spec.version       = FunkyTlv::VERSION
   spec.authors       = ["Thiago Scalone"]
   spec.email         = ["thiago@cloudwalk.io"]
   spec.summary       = "Hash Ber TLV implementation"

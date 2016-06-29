@@ -1,4 +1,4 @@
-module FunkTlv
-  VERSION = "0.1.0"
+module FunkyTlv
+  VERSION = "0.2.0"
 end
 
