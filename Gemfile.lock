@@ -1,18 +1,20 @@
 PATH
   remote: .
   specs:
-    funk-tlv (0.1.0)
+    funky-tlv (0.1.0)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    cloudwalk_handshake (0.4.1)
-    da_funk (0.4.10)
+    cloudwalk_handshake (0.5.4)
+    da_funk (0.7.3)
       bundler (~> 1.7)
-      cloudwalk_handshake (~> 0.4)
+      cloudwalk_handshake (~> 0.5)
+      posxml_parser (~> 0.6)
       rake (~> 10.4)
       yard (~> 0.8)
-    rake (10.4.2)
+    posxml_parser (0.7.11)
+    rake (10.5.0)
     yard (0.8.7.6)
 
 PLATFORMS
@@ -21,5 +23,5 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 1.7)
   da_funk
-  funk-tlv!
+  funky-tlv!
   rake (~> 10.0)
