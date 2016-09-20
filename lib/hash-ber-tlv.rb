@@ -1,3 +1,4 @@
+# encoding: utf-8
 class Hash
 	def from_ber_tlv(data)
 		i = 0
@@ -61,7 +62,7 @@ class Hash
 	def int_to_binstr(i)
 		binstr = "%X" % i
 		binstr = '0' << binstr if binstr.size % 2 == 1
-		[binstr].pack('H*')
+		[binstr].pack('H*').force_encoding("UTF-8")
 	end
 end
 
