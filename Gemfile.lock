@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    funky-tlv (0.2.0)
+    funky-tlv (0.2.1)
 
 GEM
   remote: https://rubygems.org/
@@ -25,3 +25,6 @@ DEPENDENCIES
   da_funk
   funky-tlv!
   rake (~> 10.0)
+
+BUNDLED WITH
+   1.12.3
