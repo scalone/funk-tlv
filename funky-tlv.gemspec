@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.description   = "Implements Hash Ber TLV on funk environment"
   spec.homepage      = "https://github.com/scalone/funky-tlv"
   spec.license       = "MIT"
-  spec.files         = %w(.gitignore Gemfile Gemfile.lock README.md Rakefile funky-tlv.gemspec lib/funky-tlv.rb out/funky-tlv/main.mrb)
+  spec.files         = %w(.gitignore Gemfile Gemfile.lock README.md Rakefile funky-tlv.gemspec lib/funky-tlv.rb lib/hash-ber-tlv.rb out/funky-tlv/main.mrb)
   spec.extensions    = []
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
