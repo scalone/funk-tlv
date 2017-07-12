@@ -8,6 +8,6 @@ Bundler.require(:default)
 
 DaFunk::RakeTask.new do |t|
   t.mrbc  = "cloudwalk compile"
-  t.mruby = "cloudwalk run"
+  t.mruby = "cloudwalk run -b"
 end
 
