@@ -6,25 +6,37 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
-    cloudwalk_handshake (0.5.4)
-    da_funk (0.7.3)
-      bundler (~> 1.7)
-      cloudwalk_handshake (~> 0.5)
-      posxml_parser (~> 0.6)
-      rake (~> 10.4)
-      yard (~> 0.8)
-    posxml_parser (0.7.11)
+    archive-zip (0.12.0)
+      io-like (~> 0.3.0)
+    cloudwalk (2.0.0)
+      bundler
+      rake
+    cloudwalk_handshake (2.0.0)
+      funky-simplehttp (~> 0.6)
+    da_funk (4.0.0)
+      archive-zip (~> 0.5)
+      bundler
+      cloudwalk_handshake
+      funky-emv
+      posxml_parser
+      rake
+    funky-emv (1.4.1)
+      funky-tlv (~> 0.2)
+    funky-simplehttp (0.6.0)
+    io-like (0.3.1)
+    posxml_parser (2.26.0)
+      funky-emv (~> 1)
     rake (10.5.0)
-    yard (0.8.7.6)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   bundler (~> 1.7)
+  cloudwalk
   da_funk
   funky-tlv!
   rake (~> 10.0)
 
 BUNDLED WITH
-   1.15.1
+   1.17.2
